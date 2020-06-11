@@ -29,16 +29,19 @@ function draw() {
     Context.fillRect(0, 0, Canvas.width, Canvas.height);
 
     // Precorre array de hex.
+    var ind = 0
     for (var i = 0; i < mensHex.length;i++) {
-      var r = mensHex[i + 1] == undefined ? 0 : mensHex[i + 1]
-      var g = mensHex[i + 2] == undefined ? 0 : mensHex[i + 2]
-      var b = mensHex[i + 3] == undefined ? 0 : mensHex[i + 3]
+      var r = mensHex[ind] == undefined ? 0 : mensHex[ind]
+      var g = mensHex[ind + 1] == undefined ? 0 : mensHex[ind + 1]
+      var b = mensHex[ind + 2] == undefined ? 0 : mensHex[ind + 2]
+      ind = ind + 3
       var cor = `rgb(${r},${g},${b})`
       Context.fillStyle = cor
       console.log(cor)
       var yPosition = Math.floor(i/ CanvasSize) * PixelSize;
       var xPosition = i % CanvasSize * PixelSize;
       Context.fillRect(xPosition, yPosition, PixelSize, PixelSize)
+
     }
 
     /*mensHex.forEach(function (Item, Index, Arr) {
@@ -64,7 +67,7 @@ function draw() {
     console.log(imgData)
 
     var canvas = document.getElementById('canvas');
-    var webp = canvas.toDataURL('image/webp', 0)
+    var webp = canvas.toDataURL('image/webp', 0.1)
     console.log(webp)
 
     var imgProduto = document.createElement("IMG");

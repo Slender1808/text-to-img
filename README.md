@@ -2,13 +2,13 @@
 
 ----
 ## Teste
- Esse é resultado é de 32kb do Canvas após teste de converter [css](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css) é de 156kb do Bootstrap.
+ Esse é resultado é de 65kb do Canvas após teste de converter [css](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css) é de 156kb do Bootstrap.
 
 ![alt text](https://github.com/Slender1808/text-to-img/blob/master/teste/canvas.png?raw=true)
 
 ----
 ## Com WEBP
-Usando toDataURL do Canvas ná qualidade 0 o resultado é de 542 bytes.
+Usando toDataURL do Canvas ná qualidade 0.1 o resultado é de 5kb.
 
 ![alt text](https://raw.githubusercontent.com/Slender1808/text-to-img/master/teste/resultado.webp)
 
