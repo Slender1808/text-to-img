@@ -17,8 +17,8 @@ Usando toDataURL do Canvas ná qualidade 0.1 o resultado é de 5kb.
 ![alt text](https://raw.githubusercontent.com/Slender1808/text-to-img/master/teste/resultado.webp)
 
 ----
-## Testar
-Para testar basta abrir arquivo html e inserir texto
+## [Testar](https://slender1808.github.io/text-to-img/)
+Para testar basta abrir o html
 
 ----
->Esse README.md foi criado por [markdownlivepreview](https://markdownlivepreview.com/ )
+>Esse README.md foi criado por [markdownlivepreview](https://markdownlivepreview.com/)
