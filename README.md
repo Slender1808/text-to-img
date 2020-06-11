@@ -1,6 +1,10 @@
 # Usando imagens para comprimir textos
 
 ----
+## Objetivo
+O objetivo desse projeto é tentar construir compressor de texto 
+
+----
 ## Teste
  Esse é resultado é de 65kb do Canvas após teste de converter [css](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css) é de 156kb do Bootstrap.
 
