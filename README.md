@@ -1,5 +1,5 @@
 # Usando imagens para comprimir textos
-
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IlNsZW5kZXIxODA4IiwicmVwbzEiOiJ0ZXh0LXRvLWltZyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjIxMTc2LCJpYXQiOjE1OTc3MTU5MTJ9.7Y6O3O2WFSi9pE8ABKrUU-y1e1DYSQYDXXbpoNJ56KA)](https://www.deepcode.ai/app/gh/Slender1808/text-to-img/_/dashboard?utm_content=gh%2FSlender1808%2Ftext-to-img)
 ----
 ## Objetivo
 O objetivo desse projeto é tentar construir compressor de texto 
